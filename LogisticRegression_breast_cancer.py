@@ -20,7 +20,7 @@ y = dataset.target
 ########## IMPLEMENTACIÓN DE REGRESIÓN LOGÍSTICA ##########
 from sklearn.model_selection import train_test_split
 #Separo los datos de "train" en entrenamiento y prueba para probar los algoritmos
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 #Se escalan todos los datos
 from sklearn.preprocessing import StandardScaler
 escalar = StandardScaler()
